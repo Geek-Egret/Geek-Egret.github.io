@@ -6,6 +6,10 @@ description: "极鹭 | Geek-Egret 致力于做开创性产品"
 {% for post in paginator.posts %}
 <div class="post-preview">
     <a href="{{ post.url | prepend: site.baseurl }}">
+        {% if post.subtitle %}
+        <h1 class="post-preview-img">
+            <img img src="{{ post.preview-img }}" alt="{{ post.title }} Header Image">
+        </h1>
         <h2 class="post-title">
             {{ post.title }}
         </h2>

@@ -6,8 +6,9 @@ layout:     post
 title:      名称
 subtitle:   子标题
 date:       日期
-author:     左转
+author:     作者
 header-img: 头图
+preview-img: 预览图
 catalog: 	 true
 tags:   标签
 ---
