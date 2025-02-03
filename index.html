@@ -6,11 +6,6 @@ description: "极鹭 | Geek-Egret 致力于做开创性产品"
 {% for post in paginator.posts %}
 <div class="post-preview">
     <a href="{{ post.url | prepend: site.baseurl }}">
-        {% if post.subtitle %}
-        <img class="post-preview-img"
-            src="{{ post.preview-img }}" alt="{{ post.title }} Header Image"
-        />
-        {% endif %}
         <h2 class="post-title">
             {{ post.title }}
         </h2>
@@ -18,6 +13,11 @@ description: "极鹭 | Geek-Egret 致力于做开创性产品"
         <h3 class="post-subtitle">
             {{ post.subtitle }}
         </h3>
+        {% endif %}
+        {% if post.subtitle %}
+        <img class="post-preview-img"
+            src="{{ post.preview-img }}" alt="{{ post.title }} Header Image"
+        />
         {% endif %}
         <div class="post-content-preview">
             {{ post.content | strip_html | truncate:200 }}

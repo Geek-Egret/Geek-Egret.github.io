@@ -613,8 +613,10 @@ pre code {
   color: #0085a1;
 }
 .post-preview > a > .post-preview-img {
+  display:block;
+  margin:0 auto;
   width: 100%;
-  max-width: 600px;
+  max-width: 500px;
   height: auto;
   border-radius: 8px;
   margin-bottom: 1rem;
