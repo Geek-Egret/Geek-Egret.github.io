@@ -1,7 +1,7 @@
 # Site settings
 title: Geek-Egret
 SEOTitle: 极鹭 | Geek-Egret
-header-img: img/post-bg-desk.jpg
+header-img: img/home-header.jpg
 email: lzy18750211657@gmail@com
 description: "极鹭 | Geek-Egret 一个地处鹭岛的工作室"
 keyword: "Geek-Egret, 开发板, 上位机, 有趣的产品"
@@ -12,14 +12,16 @@ github_repo: "https://github.com/Geek-Egret/Geek-Egret.github.io.git" # you code
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
 sidebar-about-description: "🐧要做一辈子嵌入式开发!!!!!🐧"
-sidebar-avatar: /img/geek-egret-logo.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
+sidebar-avatar: /img/avatar.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
 
 # SNS settings
 RSS: false
 github_username:    Geek-Egret
-bilibili_username:    428067141
+bilibili_uid:    428067141
+# zhihu_username
+# jianshu_username
 
 
 
